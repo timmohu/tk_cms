@@ -1,0 +1,3 @@
+<FilesMatch "^api$"> 
+  ForceType application/x-httpd-php
+</FilesMatch>

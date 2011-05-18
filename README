@@ -1,0 +1,5 @@
+This is an early work-in-progress example of an ultra-lightweight universal CMS. It's more of a proof of concept for the underlying principles that a working implementation, and as such there's only a small amount of functionality. The aim was to make it as intuitive to use as possible for clients to update their sites, and to keep things simple on the back-end rather than going for a full-blown database extravaganza.
+
+The back-end's written in PHP and the example front-end is written in haXe and compiled to a javascript target using FlashDevelop, with a little UI styling from jQuery. This replaces the flex version of the CMS that I made a while back.
+
+To get the preview running, set up a MYSQL database called 'cms' on your localhost, import the dummy_data.sql, update the MYSQL username/password details in 'bin/cms/config.php', navigate to the 'bin' folder in your browser and you're away.
